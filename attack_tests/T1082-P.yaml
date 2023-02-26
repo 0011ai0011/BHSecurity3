@@ -1,0 +1,7 @@
+test: T1082-P
+name: System Information Discovery (powershell)
+title: Identify System Info. Upon execution, system info and time info will be displayed.
+execution: powershell
+cmd: |
+    systeminfo
+    reg query HKLM\SYSTEM\CurrentControlSet\Services\Disk\Enum

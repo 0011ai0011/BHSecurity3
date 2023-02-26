@@ -1,0 +1,6 @@
+test: T1082-C
+name: System Information Discovery (cmd)
+title: Identify System Info. Upon execution, system info and time info will be displayed.
+execution: powershell
+cmd: |
+    hostname

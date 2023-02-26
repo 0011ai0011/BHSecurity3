@@ -1,0 +1,15 @@
+test: T1082-P2
+name: System Information Discovery with WMIC (powershell)
+title: Identify system information with the WMI command-line (WMIC) utility.
+execution: powershell
+cmd: |
+    wmic cpu get name
+    wmic MEMPHYSICAL get MaxCapacity
+    wmic baseboard get product
+    wmic baseboard get version
+    wmic bios get SMBIOSBIOSVersion
+    wmic path win32_VideoController get name
+    wmic path win32_VideoController get DriverVersion
+    wmic path win32_VideoController get VideoModeDescription
+    wmic OS get Caption,OSArchitecture,Version
+    wmic DISKDRIVE get Caption

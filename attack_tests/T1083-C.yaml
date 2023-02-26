@@ -1,0 +1,12 @@
+test: T1083-C
+name: File and Directory Discovery (cmd)
+title: Find or discover files on the file system.  Upon successful execution, this test will output the results of all the data discovery commands to a specified file.
+execution: cmd
+cmd: |
+    dir /s c:\ >> t1083results.txt
+    dir /s "c:\Documents and Settings" >> t1083results.txt
+    dir /s "c:\Program Files\" >> t1083results.txt
+    dir "%systemdrive%\Users\*.*" >> t1083results.txt
+    dir "%userprofile%\AppData\Roaming\Microsoft\Windows\Recent\*.*" >> t1083results.txt
+    dir "%userprofile%\Desktop\*.*" >> t1083results.txt
+    tree /F >> t1083results.txt

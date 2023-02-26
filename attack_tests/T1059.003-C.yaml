@@ -1,0 +1,7 @@
+test: T1059.003-C
+name: Command and Scripting Interpreter Windows Command Shell (cmd)
+title: Simulate BlackByte Ransomware Print Bombing
+execution: powershell
+cmd: |
+    cmd /c "start wordpad.exe C:\Users\vagrant\under.txt"
+    cmd /c "for /l %x in (1,1,10) do start wordpad.exe /p C:\Users\vagrant\under.txt" | out-null

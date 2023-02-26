@@ -1,0 +1,8 @@
+test: T1083-P
+name: File and Directory Discovery (powershell)
+title: Find or discover files on the file system. Upon execution, file and folder information will be displayed.
+execution: powershell
+cmd: |
+    ls -recurse
+    get-childitem -recurse
+    gci -recurse
