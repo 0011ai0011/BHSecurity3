@@ -2,7 +2,7 @@
 
 This python script is used to execute MITRE - ATT&ACK Atomic Red Team tests on windows environment to test detection and defensive capabilities against techniques defined within Atomic Red Team.
 
-Atomic Red Team™(1) is a library of simple tests that every security team can execute to test their controls. Tests are focused, have few dependencies, and are defined in a structured format that can be used by automation frameworks.
+Atomic Red Team (1) is a library of simple tests that every security team can execute to test their controls. Tests are focused, have few dependencies, and are defined in a structured format that can be used by automation frameworks.
 
 MITRE ATT&CK is a curated knowledge base and model for cyber adversary behavior, reflecting the various phases of an adversary’s attack lifecycle and the platforms they are known to target (2)
 
@@ -66,4 +66,5 @@ Copyright 2023 - BHSecurity3
 ## References
 
 (1) - https://atomicredteam.io/
+
 (2) - https://attack.mitre.org/docs/ATTACK_Design_and_Philosophy_March_2020.pdf
