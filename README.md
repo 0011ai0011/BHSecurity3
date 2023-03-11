@@ -44,12 +44,12 @@ BHSecurity3 script to simulate adversary using MITRE ATT&CK framework
  
 Atomic tests available: 
  
-[+] T1082-P2 - System Information Discovery with WMIC (powershell)
-[+] T1083-P - File and Directory Discovery (powershell)
-[+] T1083-C - File and Directory Discovery (cmd)
-[+] T1059.003-C - Command and Scripting Interpreter Windows Command Shell (cmd)
-[+] T1082-C - System Information Discovery (cmd)
-[+] T1082-P - System Information Discovery (powershell)
+- [+] T1082-P2 - System Information Discovery with WMIC (powershell)
+- [+] T1083-P - File and Directory Discovery (powershell)
+- [+] T1083-C - File and Directory Discovery (cmd)
+- [+] T1059.003-C - Command and Scripting Interpreter Windows Command Shell (cmd)
+- [+] T1082-C - System Information Discovery (cmd)
+- [+] T1082-P - System Information Discovery (powershell)
 
 ## Author
 
